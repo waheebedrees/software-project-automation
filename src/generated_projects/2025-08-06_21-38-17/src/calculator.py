@@ -1,4 +1,4 @@
-```python
+
 import datetime
 import sys
 from typing import List, Tuple, Union
@@ -206,4 +206,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-```

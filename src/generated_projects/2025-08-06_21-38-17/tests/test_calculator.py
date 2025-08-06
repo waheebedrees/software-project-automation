@@ -1,4 +1,4 @@
-```python
+
 import unittest
 from unittest.mock import patch
 from io import StringIO
@@ -392,4 +392,3 @@ class TestCalculator(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-```

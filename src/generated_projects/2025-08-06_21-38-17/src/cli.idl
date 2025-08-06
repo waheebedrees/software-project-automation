@@ -1,4 +1,4 @@
-```
+
 // Calculator Application IDL-like Specification
 
 // Data Structures
@@ -69,4 +69,3 @@ interface CalculatorApp {
     // Exits the application
     void exit();
 };
-```
