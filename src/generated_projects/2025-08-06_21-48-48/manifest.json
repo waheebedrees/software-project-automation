@@ -1,0 +1,19 @@
+```json
+{
+  "name": "Calculator",
+  "language": "Python",
+  "implementation_file": "src/calculator.py",
+  "test_file": "tests/test_calculator.py",
+  "docs_file": "docs/README.md",
+  "interface_file": "src/cli.py",
+  "run_script": "run.sh",
+  "file-mapping": {
+    "src/calculator.py": "Contains the Calculator class with methods for addition, subtraction, multiplication, and division. Includes error handling for division by zero.",
+    "src/cli.py": "Handles command-line argument parsing and user interaction. Calls the Calculator class to perform operations and displays results. Implements the history feature.",
+    "tests/test_calculator.py": "Contains unit tests for the Calculator class, verifying the correctness of the arithmetic operations and error handling.",
+    "docs/README.md": "Provides documentation on how to run the application, use its features, and understand its architecture. Written in Markdown.",
+    "run.sh": "A shell script to install dependencies using pip and then run the application.",
+    "pyproject.toml": "Contains project metadata and lists dependencies such as pytest for testing."
+  }
+}
+```

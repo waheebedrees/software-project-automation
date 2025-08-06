@@ -1,0 +1,20 @@
+```json
+{
+  "name": "Command-Line Calculator",
+  "language": "Python",
+  "implementation_file": "src/calculator.py",
+  "test_file": "tests/test_calculator.py",
+  "docs_file": "docs/README.md",
+  "interface_file": "src/cli.py",
+  "run_script": "run.sh",
+  "file_mapping": {
+    "src/calculator.py": "Contains the core calculator logic, including functions for addition, subtraction, multiplication, and division. Implements the Calculator class with methods for performing calculations and storing history.",
+    "tests/test_calculator.py": "Contains unit tests for the calculator functions using the pytest framework. Includes tests for basic arithmetic operations, division by zero, and invalid input types.",
+    "docs/README.md": "Contains documentation for the application, including instructions on how to run the application, a description of its features, and examples of usage. Written in Markdown.",
+    "src/cli.py": "Handles command-line argument parsing and user input/output. Calls the Calculator class to perform calculations and displays the results. Implements the history feature.",
+    "run.sh": "A bash script to set up the environment, install dependencies (using pip), and run the calculator application (e.g., `python src/cli.py`).",
+    "pyproject.toml": "Specifies project metadata and dependencies using the TOML format. Includes dependencies like pytest for testing and potentially click for argument parsing.",
+    "history.txt": "Text file to store calculation history. Each line contains a single calculation."
+  }
+}
+```

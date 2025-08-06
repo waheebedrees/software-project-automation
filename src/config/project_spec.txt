@@ -1,0 +1,27 @@
+## Overview
+Develop a command-line calculator application in Python. The application should be able to perform basic arithmetic operations.
+
+## Requirements
+
+### Core Functionality
+- The application **must** support addition, subtraction, multiplication, and division.
+- The application **should** handle both integer and floating-point numbers.
+- The application **will** take the operation and operands as command-line arguments or interactive input.
+- The application **must** include a way to exit.
+
+### Error Handling
+- The application **must** handle division by zero gracefully, providing an informative error message.
+- The application **should** handle invalid input types or incorrect number of arguments.
+
+### Features
+- A history feature **should** be implemented to display the last 5 calculations.
+- The application **should** be designed with a clear separation of concerns (e.g., a class for calculator logic, a function for handling user input/output).
+
+### Output
+- The result of each operation **will** be printed to the console.
+- The history **should** be displayed in a readable format.
+
+### Implementation Details
+- The application **must** be written in Python.
+- Unit tests **should** be created for the core arithmetic operations.
+- Basic documentation **should** be generated explaining how to run the application and its features.
